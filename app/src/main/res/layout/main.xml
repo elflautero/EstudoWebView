@@ -15,11 +15,17 @@
 		android:layout_height="wrap_content"
 		android:id="@+id/webV_id"/>
 	
+	<TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:id="@+id/tv_resultSeekBar_id"/>
+	
 	<SeekBar
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/seekB_id"
-		android:layout_marginTop="20dp"
+		android:layout_marginTop="40dp"
 		android:max="100"/>
 		
 </LinearLayout>
