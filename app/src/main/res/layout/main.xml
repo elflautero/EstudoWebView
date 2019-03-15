@@ -9,16 +9,17 @@
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:id="@+id/btn_link_id"
-		android:onClick="onClickSetLinkWebMap"
-		android:text="Site Google"/>
-	
+
 	<WebView
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:id="@+id/wv_id"/>
-
+		android:id="@+id/webV_id"/>
+	
+	<SeekBar
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/seekB_id"
+		android:layout_marginTop="20dp"
+		android:max="100"/>
+		
 </LinearLayout>
